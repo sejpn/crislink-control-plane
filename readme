@@ -1,0 +1,26 @@
+# CrisLink Control Plane (CLP v2)
+
+CLP v2 is the Control & Status Plane for the CrisLink system.
+
+It provides a unified view and control interface for:
+- Lighthouses (CL-Nxx, CL-Oxx, CL-Mxx)
+- Sensor nodes (CL-SNSxx)
+- Hubs (CL-HUBxx)
+- Buttons and gateways
+
+CLP v2 is event-driven and technology-agnostic.
+It does not care if nodes communicate over LoRaWAN, UART or IP.
+
+---
+
+## Core principles
+
+- Nodes announce themselves automatically
+- MQTT is the single integration layer
+- CLP contains no node-specific logic
+- All intelligence lives in the nodes
+
+---
+
+## Repository structure
+
